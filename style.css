@@ -101,4 +101,7 @@ footer {
         height: auto;
         width: auto;
     }
+    #msg{
+        font-size:1.4rem;
+    }
 }
