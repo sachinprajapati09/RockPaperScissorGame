@@ -104,4 +104,10 @@ footer {
     #msg{
         font-size:1.1rem;
     }
+    img {
+    height: auto;
+    width: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
 }
