@@ -105,8 +105,8 @@ footer {
         font-size:1.1rem;
     }
     img {
-    height: 100%;
-    width: 100%;
+    height: 75px;
+    width: 75px;
     object-fit: cover;
     border-radius: 50%;
         
