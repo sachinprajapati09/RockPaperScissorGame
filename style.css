@@ -91,11 +91,22 @@ footer {
         flex-wrap: wrap;
     }
     .choices {
-        height: auto;
-        width: auto;
-        flex-wrap: wrap;
-        margin: 0;
-        padding: 10px 5%;
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+        display: flex;
+        margin-top: 5rem;
+        gap: .5rem;
+    }
+    .choice {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        margin-bottom: 0px;
+    }
+    .choice:hover {
+        cursor: pointer;
+        background-color: #081b31;
     }
     .score-board {
         height: auto;
@@ -107,5 +118,10 @@ footer {
     }
     #msg {
         font-size: 1rem;
+    }
+    img {
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
     }
 }
